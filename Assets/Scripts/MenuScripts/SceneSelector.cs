@@ -5,12 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class SceneSelector : MonoBehaviour
 {
-    int startedGame = PlayerPrefs.GetInt("startedGame");
+    int startedGame;
     private bool _debug = false;
     // Start is called before the first frame update
     void Start()
     {
-        
+        startedGame = PlayerPrefs.GetInt("startedGame");
     }
     public void QuitFromGame()
     {
@@ -19,10 +19,11 @@ public class SceneSelector : MonoBehaviour
     }
     public void GoToSceneSelector()
     {
+        startedGame = PlayerPrefs.GetInt("startedGame");
         if (startedGame == 1)
         {
             Debug.Log("Go to scene selection");
-            SceneManager.LoadScene("sceneSelection");
+            SceneManager.LoadScene("LevelSelect");
         }
         else
         {
@@ -53,6 +54,7 @@ public class SceneSelector : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (_debug == false)
         {
             Debug.Log("Debug is ON");
