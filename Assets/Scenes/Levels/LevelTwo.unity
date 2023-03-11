@@ -191,6 +191,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
 --- !u!4 &9231082 stripped
@@ -256,6 +260,10 @@ PrefabInstance:
     - target: {fileID: 8802033472701450200, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
       propertyPath: m_Name
       value: Sand with Fences (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9174583620018939066, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
@@ -330,6 +338,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4235411023762406362, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -494,6 +506,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
 --- !u!4 &78564065 stripped
@@ -562,6 +578,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4235411023762406362, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1156,6 +1176,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sand with Fences (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 9174583620018939066, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
 --- !u!4 &301536683 stripped
@@ -1477,6 +1501,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
 --- !u!1001 &359181863
@@ -1633,6 +1661,93 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55441e6bf8cbb644daedf830a5ef183d, type: 3}
+--- !u!1 &368785508 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 252417683940704060, guid: 92dd3f8224f87d745a4513970c8fb09c, type: 3}
+  m_PrefabInstance: {fileID: 393357426}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &368785509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368785508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 11400000, guid: 2eba7644a368e9b4580d69df42fc07fd, type: 2}
+  isGlobal: 1
+  blendDistance: 0
+  weight: 1
+  priority: 0
+--- !u!114 &368785510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368785508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 368785514}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  stopNaNPropagation: 1
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 0
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 0
+    keepAlpha: 0
+  fog:
+    enabled: 1
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
+--- !u!4 &368785514 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 252417683940704059, guid: 92dd3f8224f87d745a4513970c8fb09c, type: 3}
+  m_PrefabInstance: {fileID: 393357426}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &379693712 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4235411023762406362, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
@@ -1778,6 +1893,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sand with Fences (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 9174583620018939066, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
 --- !u!4 &392077159 stripped
@@ -1802,7 +1921,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 252417683940704059, guid: 92dd3f8224f87d745a4513970c8fb09c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 41.864914
+      value: 44.7
       objectReference: {fileID: 0}
     - target: {fileID: 252417683940704059, guid: 92dd3f8224f87d745a4513970c8fb09c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1810,7 +1929,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 252417683940704059, guid: 92dd3f8224f87d745a4513970c8fb09c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -14.328013
+      value: -7.1
       objectReference: {fileID: 0}
     - target: {fileID: 252417683940704059, guid: 92dd3f8224f87d745a4513970c8fb09c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1843,6 +1962,14 @@ PrefabInstance:
     - target: {fileID: 252417683940704060, guid: 92dd3f8224f87d745a4513970c8fb09c, type: 3}
       propertyPath: m_Name
       value: Main Camera (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 252417683940704060, guid: 92dd3f8224f87d745a4513970c8fb09c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 252417683940704060, guid: 92dd3f8224f87d745a4513970c8fb09c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92dd3f8224f87d745a4513970c8fb09c, type: 3}
@@ -2155,6 +2282,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
 --- !u!1001 &415870964
@@ -2218,6 +2349,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4235411023762406362, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2365,6 +2500,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4235411023762406362, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2664,6 +2803,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4235411023762406362, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3013,6 +3156,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
 --- !u!4 &500574248 stripped
@@ -3086,6 +3233,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4235411023762406362, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3686,6 +3837,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
 --- !u!1001 &595845144
@@ -3824,6 +3979,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
 --- !u!1001 &617524924
@@ -3884,6 +4043,10 @@ PrefabInstance:
     - target: {fileID: 8802033472701450200, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
       propertyPath: m_Name
       value: Sand with Fences (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9174583620018939066, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
@@ -4027,6 +4190,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4235411023762406362, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4294,6 +4461,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
 --- !u!1001 &652136691
@@ -4434,6 +4605,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4235411023762406362, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4583,6 +4758,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4235411023762406362, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4972,6 +5151,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sand with Fences (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 9174583620018939066, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
 --- !u!4 &722703828 stripped
@@ -5206,6 +5389,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
 --- !u!1 &756106749
@@ -5295,6 +5482,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 923346073}
     m_Modifications:
+    - target: {fileID: 1745572299275905298, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4235411023762406358, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
       propertyPath: m_Name
       value: Grass with Fences (1)
@@ -5349,6 +5540,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4235411023762406362, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7624220992596775213, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8390575395015932664, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5590,6 +5793,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
 --- !u!1001 &833381708
@@ -5653,6 +5860,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4235411023762406362, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -6326,6 +6537,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
 --- !u!1001 &999260941
@@ -6494,6 +6709,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 923346073}
     m_Modifications:
+    - target: {fileID: 1745572299275905298, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4235411023762406358, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
       propertyPath: m_Name
       value: Grass with Fences (2)
@@ -6548,6 +6767,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4235411023762406362, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7624220992596775213, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8390575395015932664, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -7396,6 +7627,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 923346073}
     m_Modifications:
+    - target: {fileID: 1745572299275905298, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4235411023762406358, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
       propertyPath: m_Name
       value: Grass with Fences (4)
@@ -7450,6 +7685,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4235411023762406362, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7624220992596775213, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8390575395015932664, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -8059,6 +8306,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sand with Fences (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 9174583620018939066, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
 --- !u!4 &1281972495 stripped
@@ -8229,6 +8480,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4235411023762406362, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -8498,6 +8753,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sand with Fences (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 9174583620018939066, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
 --- !u!4 &1328598667 stripped
@@ -8567,6 +8826,10 @@ PrefabInstance:
     - target: {fileID: 8802033472701450200, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
       propertyPath: m_Name
       value: Sand with Fences (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9174583620018939066, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
@@ -8720,6 +8983,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
 --- !u!4 &1354983300 stripped
@@ -8793,6 +9060,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4235411023762406362, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -9177,6 +9448,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sand with Fences (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 9174583620018939066, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
 --- !u!4 &1444996829 stripped
@@ -9245,6 +9520,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4235411023762406362, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -9694,6 +9973,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
 --- !u!1001 &1494623475
@@ -10124,6 +10407,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sand with Fences (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 9174583620018939066, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
 --- !u!4 &1602817505 stripped
@@ -10353,6 +10640,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
 --- !u!4 &1645824326 stripped
@@ -10426,6 +10717,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4235411023762406362, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -10580,6 +10875,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
 --- !u!4 &1712683422 stripped
@@ -10645,6 +10944,10 @@ PrefabInstance:
     - target: {fileID: 8802033472701450200, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
       propertyPath: m_Name
       value: Sand with Fences (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9174583620018939066, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
@@ -10714,6 +11017,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4235411023762406362, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -10967,6 +11274,10 @@ PrefabInstance:
     - target: {fileID: 8802033472701450200, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
       propertyPath: m_Name
       value: Sand with Fences (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9174583620018939066, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
@@ -11254,6 +11565,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
 --- !u!1 &1808961617
@@ -11514,6 +11829,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sand with Fences (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 9174583620018939066, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
 --- !u!4 &1833134337 stripped
@@ -11738,6 +12057,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
 --- !u!1001 &1864969182
@@ -11911,6 +12234,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 923346073}
     m_Modifications:
+    - target: {fileID: 1745572299275905298, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4235411023762406358, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
       propertyPath: m_Name
       value: Grass with Fences (3)
@@ -11965,6 +12292,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4235411023762406362, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7624220992596775213, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8390575395015932664, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -12053,6 +12392,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
 --- !u!1001 &1898493142
@@ -12116,6 +12459,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4235411023762406362, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -12341,6 +12688,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4235411023762406362, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -12570,6 +12921,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
 --- !u!1001 &1946915161
@@ -12737,6 +13092,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
 --- !u!1001 &2007691838
@@ -12801,6 +13160,10 @@ PrefabInstance:
     - target: {fileID: 8802033472701450200, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
       propertyPath: m_Name
       value: Sand with Fences (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9174583620018939066, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
@@ -12950,6 +13313,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
 --- !u!1001 &2066381645
@@ -13090,6 +13457,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4235411023762406362, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -13237,6 +13608,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4235411023762406362, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776256260740913717, guid: 824d0c350d0a0204e8ab91a8a6dfc45d, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -13415,6 +13790,10 @@ PrefabInstance:
     - target: {fileID: 8802033472701450200, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
       propertyPath: m_Name
       value: Sand with Fences (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9174583620018939066, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8fe01bce6503be46aa7fe9a471f230b, type: 3}
