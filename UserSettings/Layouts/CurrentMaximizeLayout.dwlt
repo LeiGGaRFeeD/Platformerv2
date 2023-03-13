@@ -224,10 +224,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 32}
-      m_SelectedIDs: fa43aeff
-      m_LastClickedID: -5356550
-      m_ExpandedIDs: 2ed9afff8c31b0ffbae4b0ff62bfb1fff4bfb1ff96cab1ff368fb2ff0a96b2ff3496b2ff86a1b2ff84a6b2ffdaa6b2ff44b2b2ff4ab2b2ff3007b5ff9e9eb5ff1c42b6ff2042b6ffa051b6ff2492b8ffbc25bbfffaf2bcff36f4bcfff8f8bcff7291bdff72b1c6ff24bcc6ff7c12c9ff8caec9ff1abac9fffebfc9ff06d0c9ff5aa8caff5a61cbff5ef9cdffbc07ceff3edfceffb8bfcfff48e5cfff823cd2ffcae4d2ffaa3ad5ff483bd5fff206d6ff8812d6ffc4acd6ff76b7d6ff1c25d8ff7634d8ff7c6dd8ff6478d8ff5e7bd8ffb47bd8ff1e87d8ff2487d8ff0cdbdaffc671dbffe414dcffee14dcff2c76defff876deff9acde0ffa665e1ff4e0ae2ff0215e2ff3cc6e2fff0d0e2ffb68de3ff6a98e3ff223ee4ffee4ae4ff8083e4ff9283e4ffeadae6ffdeebe6ff1455e9ff20ede9ffe2baeaff32d3eaffe814edffc469efffcc3ff0ff66edf0ff4ef8f0ff0406f1ff0615f1ff7a31f1ffe6c6f1ffca1bf4ff06e5f4ff1a7bf5fffecff7ffa024faffe0b9faffa6bdfaffcc2afbffd84bfbffa2f0fbffcea9fcff3279fdff1871feff48a4feff8eaafeffd8e4feff1af7feff06f8feff3403ffff8203ffff92a8ffff78bdffff1cccffff1cdcffff1ce3ffff7ee3ffff22f5ffff06fbffffc05f000084600000406700004467000012680000b2680000b4940a00f2950a006e800b0002810b0092161100041b1600161b1600501b16009424160056251600504716006a032200def02700765932001e123300
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 8edca5ff5c48a9ff2ce1a9fff2eba9ff0a43acff62bfb1fff4bfb1ff96cab1ff368fb2ff0a96b2ff3496b2ff86a1b2ff84a6b2ffdaa6b2ff44b2b2ff4ab2b2ff3007b5ff9e9eb5ff1c42b6ff2042b6ffa051b6ff2492b8ffbc25bbfffaf2bcff36f4bcfff8f8bcff7291bdff72b1c6ff24bcc6ff7c12c9ff8caec9ff1abac9fffebfc9ff06d0c9ff5aa8caff5a61cbff5ef9cdffbc07ceff3edfceffb8bfcfff48e5cfff823cd2ffcae4d2ffaa3ad5ff483bd5fff206d6ff8812d6ffc4acd6ff76b7d6ff1c25d8ff7634d8ff7c6dd8ff6478d8ff5e7bd8ffb47bd8ff1e87d8ff2487d8ff0cdbdaffc671dbffe414dcffee14dcff2c76defff876deff9acde0ffa665e1ff4e0ae2ff0215e2ff3cc6e2fff0d0e2ffb68de3ff6a98e3ff223ee4ffee4ae4ff8083e4ff9283e4ffeadae6ffdeebe6ff1455e9ff20ede9ffe2baeaff32d3eaffe814edffc469efffcc3ff0ff66edf0ff4ef8f0ff0406f1ff0615f1ff7a31f1ffe6c6f1ffca1bf4ff06e5f4ff1a7bf5fffecff7ffa024faffe0b9faffa6bdfaffcc2afbffd84bfbffa2f0fbffcea9fcff3279fdff1871feff48a4feff8eaafeffd8e4feff1af7feff06f8feff3403ffff8203ffff92a8ffff78bdffff1cccffff1cdcffff1ce3ffff7ee3ffff22f5ffff06fbffffc05f000084600000406700004467000012680000b2680000b4940a00f2950a006e800b0002810b0092161100041b1600161b1600501b16009424160056251600504716006a032200def02700765932001e123300bc513500
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -535,9 +535,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 37.006046, y: -23.974108, z: 670.18823}
+    m_Target: {x: -3.2636042, y: -10.453513, z: 1808.4521}
     speed: 2
-    m_Value: {x: 37.006046, y: -23.974108, z: 670.18823}
+    m_Value: {x: -3.2636042, y: -10.453513, z: 1808.4521}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -584,13 +584,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.08240442, y: -0.08818566, z: 0.0074269422, w: 0.9929934}
+    m_Target: {x: -0.09257607, y: -0.25629994, z: 0.026168942, w: -0.96219844}
     speed: 2
-    m_Value: {x: 0.08237731, y: -0.08815665, z: 0.0074244984, w: 0.99266666}
+    m_Value: {x: -0.09254042, y: -0.25620124, z: 0.026158864, w: -0.9618279}
   m_Size:
-    m_Target: 117.70808
+    m_Target: 0.8660283
     speed: 2
-    m_Value: 117.70808
+    m_Value: 0.8660283
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -709,23 +709,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/SmallObjects
+    - Assets/Prefabs/LevelParts/SmallObjects
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/SmallObjects
+  - Assets/Prefabs/LevelParts/SmallObjects
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Kirill\Documents\GitHub\Projects\PlatformerKT v2\PlatformerKT
     v2\Platformerv2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 68}
     m_SelectedIDs: 34df3300
     m_LastClickedID: 3399476
-    m_ExpandedIDs: 00000000265e00002a5e00002c5e00002e5e0000305e0000325e0000445e00004a5e00003055160000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000265e0000285e00002a5e00002c5e00002e5e0000305e0000325e0000425e0000445e00004a5e000024840b003055160030f027005c4c350000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -778,8 +778,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: fa43aeff
-    m_LastClickedInstanceID: -5356550
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
@@ -856,8 +856,8 @@ MonoBehaviour:
     y: 0
     width: 455
     height: 987
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
