@@ -28,7 +28,8 @@ public class SceneSelector : MonoBehaviour
         else
         {
             PlayerPrefs.SetInt("startedGame", 1);
-            GoToLevelOne();
+          //  GoToLevelOne();
+            SceneManager.LoadScene("FirstDialog");
         }
     }
     public void GoToLevelOne()

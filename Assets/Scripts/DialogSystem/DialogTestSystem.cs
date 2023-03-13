@@ -21,8 +21,12 @@ public class DialogTestSystem : MonoBehaviour
     [SerializeField] GameObject spaceKey;
     [SerializeField] GameObject evilGuy;
     private int _state = 0;
+
+    private AudioSource _audio;
+
     void Start()
     {
+        _audio = GetComponent<AudioSource>();
         _state = 1;
         name.text = _firstName;
         InvokeRepeating("TitleDissappear", 2f, 0);
@@ -44,36 +48,42 @@ public class DialogTestSystem : MonoBehaviour
                     {
                         dialogOne.text = "Wake up";
                         _state = 2;
+                        _audio.Play();
                         break;
                     }
                 case 2:
                     {
                         dialogTwo.text = "...";
                         _state = 3;
+                        _audio.Play();
                         break;
                     }
                 case 3:
                     {
                         dialogOne.text = "WAKE UP!!!!";
                         _state = 4;
+                        _audio.Play();
                         break;
                     }
                 case 4:
                     {
                         dialogTwo.text = "Uhh.. Where i am?";
                         _state = 5;
+                        _audio.Play();
                         break;
                     }
                 case 5:
                     {
                         dialogOne.text = "You in... your mind. Dont ask how.";
                         _state++;
+                        _audio.Play();
                         break;
                     }
                 case 6:
                     {
                         dialogTwo.text = "Ok. But who are you?";
                         _state++;
+                        _audio.Play();
                         break;
                     }
                 case 7:
@@ -81,12 +91,14 @@ public class DialogTestSystem : MonoBehaviour
                         dialogOne.text = "I am Friend";
                         _state++;
                         name.text = _secondName;
+                        _audio.Play();
                         break;
                     }
                 case 8:
                     {
                         dialogTwo.text = "What is my purpose?";
                         _state++;
+                        _audio.Play();
                         break;
                     }
                 case 9:
@@ -94,12 +106,14 @@ public class DialogTestSystem : MonoBehaviour
                         dialogOne.text = "You need to destroy him";
                         _state++;
                         evilGuy.SetActive(true);
+                        _audio.Play();
                         break;
                     }
                 case 10:
                     {
                         dialogTwo.text = "How i can navigate in this world?";
                         _state++;
+                        _audio.Play();
                         break;
                     }
                 case 11:
@@ -108,12 +122,14 @@ public class DialogTestSystem : MonoBehaviour
                         _state++;
                         evilGuy.SetActive(false);
                         wasdKeys.SetActive(true);
+                        _audio.Play();
                         break;
                     }
                 case 12:
                     {
                         dialogTwo.text = "Do i need to know something else?";
                         _state++;
+                        _audio.Play();
                         break;
                     }
                 case 13:
@@ -122,12 +138,14 @@ public class DialogTestSystem : MonoBehaviour
                         _state++;
                         wasdKeys.SetActive(false);
                         spaceKey.SetActive(true);
+                        _audio.Play();
                         break;
                     }
                 case 14:
                     {
                         dialogOne.text = "Ready to big dangerous adventure?";
                         _state++;
+                        _audio.Play();
                         break;
                     }
                 case 15:
@@ -135,6 +153,7 @@ public class DialogTestSystem : MonoBehaviour
                         dialogTwo.text = "Yeah! Like never before!";
                         _state++;
                         spaceKey.SetActive(false);
+                        _audio.Play();
                         break;
                     }
                 case 16:
