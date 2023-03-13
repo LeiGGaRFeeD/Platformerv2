@@ -754,7 +754,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Use M to go map, N to main menu, Q to exit from game, D to dialog
+  m_Text: Use M to go map, N to main menu, Q to exit from game, D to dialog, F to
+    final scene
 --- !u!222 &1959655871
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -54,5 +54,10 @@ public class DebugSceneCOntroller : MonoBehaviour
             Debug.Log("Clearing your progress");
             
         }
+        if (Input.GetKeyUp(KeyCode.F))
+        {
+            Debug.Log("Go to final scene");
+            SceneManager.LoadScene("EndOfTheDemo");
+        }
     }
 }

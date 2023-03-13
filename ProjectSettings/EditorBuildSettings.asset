@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Debug/Scenes/DebugMenuScene.unity
     guid: 7d26fea10ac246440aeddc3f8ecc3f0d
+  - enabled: 1
+    path: Assets/Scenes/EndOfTheDemo.unity
+    guid: d21f7a70a36a996478eba8a4e826f5c3
   m_configObjects: {}
