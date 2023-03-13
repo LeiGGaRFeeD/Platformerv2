@@ -41,6 +41,13 @@ public class LevelOpenSystem : MonoBehaviour
                     bridgeToLevelThree.SetActive(true);
                     break;
                 }
+            case 4:
+                {
+                    Debug.Log("Level Two open");
+                    bridgeToLevelTwo.SetActive(true);
+                    bridgeToLevelThree.SetActive(true);
+                    break;
+                }
         }
     }
     // Update is called once per frame
