@@ -1960,6 +1960,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DebugHelper
       objectReference: {fileID: 0}
+    - target: {fileID: 3043134547592074552, guid: e8431eb7e5a81e84f95b424af9b2dbeb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8431eb7e5a81e84f95b424af9b2dbeb, type: 3}
 --- !u!1 &2039611586
