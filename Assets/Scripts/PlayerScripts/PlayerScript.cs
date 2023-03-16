@@ -22,6 +22,9 @@ public class PlayerScript : MonoBehaviour
     void FixedUpdate()
     {
         MovementLogic();
+    }
+    private void Update()
+    {
         JumpLogic();
     }
 
@@ -38,8 +41,12 @@ public class PlayerScript : MonoBehaviour
 
     private void JumpLogic()
     {
+        Debug.Log("IsGrounded = " + _isGrounded);
+        Debug.Log("Get Axis " + Input.GetAxis("Jump"));
         if (Input.GetAxis("Jump") > 0)
+       if (Input.GetKeyDown(KeyCode.Space))
         {
+
             if (_isGrounded)
             {
                 _rb.AddForce(Vector3.up * JumpForce);

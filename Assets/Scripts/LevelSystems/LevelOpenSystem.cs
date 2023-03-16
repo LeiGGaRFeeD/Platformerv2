@@ -8,6 +8,10 @@ public class LevelOpenSystem : MonoBehaviour
     [SerializeField] GameObject bridgeToLevelTwo;
     [SerializeField] GameObject bridgeToLevelThree;
     private bool _debug = false;
+
+    [SerializeField] GameObject levelCompletedOne;
+    [SerializeField] GameObject levelCompletedTwo;
+    [SerializeField] GameObject levelCompletedThree;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +19,9 @@ public class LevelOpenSystem : MonoBehaviour
         Debug.Log("Level opener system is working");
         bridgeToLevelTwo.SetActive(false);
         bridgeToLevelThree.SetActive(false);
+        levelCompletedOne.SetActive(false);
+        levelCompletedTwo.SetActive(false);
+        levelCompletedThree.SetActive(false);
     }
     public void LevelOpener() //ѕровер€ет и добавл€ет мосты, когда уровень открыт
     {
@@ -32,6 +39,7 @@ public class LevelOpenSystem : MonoBehaviour
                 {
                     Debug.Log("Level Two open");
                     bridgeToLevelTwo.SetActive(true);
+                    levelCompletedOne.SetActive(true);
                     break;
                 }
             case 3:
@@ -39,6 +47,8 @@ public class LevelOpenSystem : MonoBehaviour
                     Debug.Log("Level Two open");
                     bridgeToLevelTwo.SetActive(true);
                     bridgeToLevelThree.SetActive(true);
+                    levelCompletedTwo.SetActive (true);
+                    levelCompletedOne.SetActive (true);
                     break;
                 }
             case 4:
@@ -46,6 +56,24 @@ public class LevelOpenSystem : MonoBehaviour
                     Debug.Log("Level Two open");
                     bridgeToLevelTwo.SetActive(true);
                     bridgeToLevelThree.SetActive(true);
+                    levelCompletedTwo.SetActive(true);
+                    levelCompletedOne.SetActive(true);
+                    levelCompletedThree.SetActive (true);
+                    break;
+                }
+            case > 4:
+                {
+                    Debug.Log("All opened!");
+                    bridgeToLevelTwo.SetActive(true);
+                    bridgeToLevelThree.SetActive(true);
+                    levelCompletedTwo.SetActive(true);
+                    levelCompletedOne.SetActive(true);
+                    levelCompletedThree.SetActive(true);
+                    break;
+                }
+            case < 0:
+                {
+                    _level = 1;
                     break;
                 }
         }

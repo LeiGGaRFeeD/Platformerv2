@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -834,7 +834,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Build 3
+  m_Text: Build 1
 --- !u!222 &941205975
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1450,6 +1450,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DebugHelper
       objectReference: {fileID: 0}
+    - target: {fileID: 3043134547592074552, guid: e8431eb7e5a81e84f95b424af9b2dbeb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8431eb7e5a81e84f95b424af9b2dbeb, type: 3}
 --- !u!1 &1744551086
@@ -1763,7 +1767,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: InDev 6
+  m_Text: Demo v3
 --- !u!222 &2119229525
 CanvasRenderer:
   m_ObjectHideFlags: 0
